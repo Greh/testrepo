@@ -3,3 +3,6 @@ This file is tracked on master and not on the other branches
 Making this commit and then I will try to move it to 
 another branch
 
+added another line
+one more line
+now the branch is well diverged from the tree
