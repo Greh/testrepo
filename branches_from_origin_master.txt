@@ -6,3 +6,9 @@ then I will run:
 
 git push origin HEAD:refs/heads/a_branch
 
+If you were to clone this repo from scratch, you
+will not see this file. But if you checkout this
+branch, you will see this file.
+
+However, if you look at the git log, the commits
+will be on top of the master commit.
