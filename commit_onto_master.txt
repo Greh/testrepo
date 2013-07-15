@@ -7,3 +7,4 @@ added another line
 one more line
 now the branch is well diverged from the tree
 one more line
+now the branch is well diverged from the tree
