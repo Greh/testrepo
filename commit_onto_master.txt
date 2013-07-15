@@ -5,3 +5,4 @@ another branch
 
 This is a line on master
 This is another line on master
+Now master is ahead by 3
