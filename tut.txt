@@ -1,0 +1,10 @@
+My git tutorial
+
+1. Merges
+  
+	a. Straightforward ones
+		Master is being worked on by other people but you have branched off
+		You want all your changes to be included in master
+		You do:
+			git checkout master
+			git merge branch
