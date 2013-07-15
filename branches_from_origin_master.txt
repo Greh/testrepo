@@ -1,0 +1,8 @@
+So where does the branch fall depending on where you are.
+
+HEAD is currently pointing to origin/master and the 
+local master. I will add this file and then commit it
+then I will run:
+
+git push origin HEAD:refs/heads/a_branch
+
