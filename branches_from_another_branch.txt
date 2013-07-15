@@ -1,5 +1,0 @@
-I am currently on a_new_branch and not master
-
-I created this file, committed it and ran
-
-git push origin HEAD:refs/heads/another_new_branch
