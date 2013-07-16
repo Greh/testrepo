@@ -25,6 +25,7 @@ My git tutorial
 	I have now checked out br1 later in the tree history
 	I will add 3 commits to this branch
 	Then do a git push to a remote branch also called br1
+<<<<<<< HEAD
 >>>>>>> br1
 	Notice that it picked master first? - this is dicey when 
 	doing it for files which are not that straightforward
@@ -35,3 +36,6 @@ My git tutorial
 	Master is one commit ahead right now.
 	Applying 3 commits to br1
 	Then do rebase so I can get this change that I did on master 
+	
+	Run git checkout br1
+	Added commit 1 on top of br1
