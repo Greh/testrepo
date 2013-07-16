@@ -19,3 +19,4 @@ My git tutorial
 	
 3. What if there was a remote branch too?
 	I have now checked out br1 later in the tree history
+I will add 3 commits to this branch
