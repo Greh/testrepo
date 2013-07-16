@@ -18,4 +18,5 @@ My git tutorial
 	There is no remote br1 branch so this can be done
 	
 3. What if there was a remote branch too?
-	
+	I'm in master now, and none of my changes in br1 are visible.
+	So I'll do a merge, and I will get some conflicts.	
