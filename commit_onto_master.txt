@@ -3,6 +3,14 @@ This file is tracked on master and not on the other branches
 Making this commit and then I will try to move it to 
 another branch
 
+<<<<<<< HEAD
 This is a line on master
 This is another line on master
 Now master is ahead by 3
+=======
+added another line
+one more line
+now the branch is well diverged from the tree
+one more line
+now the branch is well diverged from the tree
+>>>>>>> br1
