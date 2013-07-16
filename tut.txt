@@ -30,3 +30,8 @@ My git tutorial
 	doing it for files which are not that straightforward
 	Doing git push origin master will push all the merges
         to master and br1 is still hanging over there
+
+4. Rebasing:
+	Master is one commit ahead right now.
+	Applying 3 commits to br1
+	Then do rebase so I can get this change that I did on master 
