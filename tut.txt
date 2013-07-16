@@ -26,3 +26,5 @@ My git tutorial
 	I will add 3 commits to this branch
 	Then do a git push to a remote branch also called br1
 >>>>>>> br1
+	Notice that it picked master first? - this is dicey when 
+	doing it for files which are not that straightforward
