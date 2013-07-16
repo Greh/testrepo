@@ -18,5 +18,11 @@ My git tutorial
 	There is no remote br1 branch so this can be done
 	
 3. What if there was a remote branch too?
+<<<<<<< HEAD
 	I'm in master now, and none of my changes in br1 are visible.
 	So I'll do a merge, and I will get some conflicts.	
+=======
+	I have now checked out br1 later in the tree history
+	I will add 3 commits to this branch
+	Then do a git push to a remote branch also called br1
+>>>>>>> br1
