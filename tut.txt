@@ -28,3 +28,5 @@ My git tutorial
 >>>>>>> br1
 	Notice that it picked master first? - this is dicey when 
 	doing it for files which are not that straightforward
+	Doing git push origin master will push all the merges
+        to master and br1 is still hanging over there
