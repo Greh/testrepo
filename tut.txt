@@ -8,3 +8,8 @@ My git tutorial
 		You do:
 			git checkout master
 			git merge branch
+		There will be conflicts because one file is modified in two locations
+		To accept all merges just do git add .
+		Then it will ask for a merge commit message
+		At this point master is ahead by 3 commits from origin/master
+		Run git push origin master
