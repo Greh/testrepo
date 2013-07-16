@@ -42,4 +42,8 @@ My git tutorial
 	Added commit 1 on top of br1
 =======
 	Make 3 commits onto br1
+<<<<<<< HEAD
 >>>>>>> Added commit 2 on top of commit 1
+=======
+	run git rebase master
+>>>>>>> Added commit 3 on top of commit 1
