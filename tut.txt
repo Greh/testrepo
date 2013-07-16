@@ -38,4 +38,8 @@ My git tutorial
 	Then do rebase so I can get this change that I did on master 
 	
 	Run git checkout br1
+<<<<<<< HEAD
 	Added commit 1 on top of br1
+=======
+	Make 3 commits onto br1
+>>>>>>> Added commit 2 on top of commit 1
