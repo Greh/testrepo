@@ -1,15 +1,21 @@
 My git tutorial
 
-1. Merges
-  
-	a. Straightforward ones
-		Master is being worked on by other people but you have branched off
-		You want all your changes to be included in master
-		You do:
-			git checkout master
-			git merge branch
-		There will be conflicts because one file is modified in two locations
-		To accept all merges just do git add .
-		Then it will ask for a merge commit message
-		At this point master is ahead by 3 commits from origin/master
-		Run git push origin master
+1. Straightforward Merge:
+	Master as 3 commits and a branch has 3 commits. Nothing is happening on remote
+	To have all changes to be included in master
+	do:
+		git checkout master
+		git merge branch
+	There will be conflicts because one file is modified in two locations
+	To accept all merges just do git add .
+	Then it will ask for a merge commit message
+	At this point master is ahead by 3 commits from origin/master
+	Run git push origin master
+
+2. What to do with tut.txt
+	At this point tut.txt exists in master but not in br1
+	Right now since br1 is merged, it can be deleted and recreated
+	There is no remote br1 branch so this can be done
+	
+3. What if there was a remote branch too?
+	
