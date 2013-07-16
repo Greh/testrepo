@@ -18,4 +18,4 @@ My git tutorial
 	There is no remote br1 branch so this can be done
 	
 3. What if there was a remote branch too?
-	
+	I have now checked out br1 later in the tree history
