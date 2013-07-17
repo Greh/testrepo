@@ -57,3 +57,8 @@ My git tutorial
 	And then do a merge:
 	git checkout master
 	git merge br1 
+
+	I am back to br1 and notice that origin/br1 is behing
+	So I do git push origin HEAD:refs/heads/br1 to bring the
+	two up to date.
+	There will be conflicts...
