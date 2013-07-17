@@ -57,3 +57,7 @@ My git tutorial
 	And then do a merge:
 	git checkout master
 	git merge br1 
+
+	I am now ahead of origin/master by 6 commits (7 if including this
+	change) So now I will do a push:
+	git push origin master
