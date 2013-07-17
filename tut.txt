@@ -61,3 +61,6 @@ My git tutorial
 	I am now ahead of origin/master by 6 commits (7 if including this
 	change) So now I will do a push:
 	git push origin master
+
+	I made some changes to br1 and then updated br1. But you don't
+	see them here because changes in br1 have not been merged.
