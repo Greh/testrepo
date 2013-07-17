@@ -37,13 +37,23 @@ My git tutorial
 	Applying 3 commits to br1
 	Then do rebase so I can get this change that I did on master 
 	
-	Run git checkout br1
-<<<<<<< HEAD
-	Added commit 1 on top of br1
-=======
-	Make 3 commits onto br1
-<<<<<<< HEAD
->>>>>>> Added commit 2 on top of commit 1
-=======
-	run git rebase master
->>>>>>> Added commit 3 on top of commit 1
+	Run git checkout br1 - master
+	Added commit 1 on top of br1 - br1
+	Make 3 commits onto br1 - master
+	Added commit 2 on top of commit 1 -br1
+	run git rebase master - master
+	Added commit 3 on top of commit 1 - br1
+	
+	I'm still on br1 but notice that I now have the change from
+	master
+	There were conflicts as we rebased
+	To resolve them I did git add
+	That will produce the markings showing where it came from
+	like in 3.
+	I've cleaned them up but maintained the order in which
+	the changes on br1 got applied onto master
+
+	Now I commit these changes
+	And then do a merge:
+	git checkout master
+	git merge br1 
