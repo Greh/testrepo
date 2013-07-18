@@ -80,3 +80,9 @@ My git tutorial
 	git rebase --onto master br1 br2
 	this means - replay changes on master starting from the common ancestor
 	of br1 and br2 and ending in br2 
+
+	I am now on master - but I don't see any of the conflict changes..
+	That is because master is still back where the rebasing started.
+	I will now have to do a fast foward merge which is just bringing the
+	master pointer where the br2 pointer is
+	git merge br2
