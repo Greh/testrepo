@@ -70,3 +70,13 @@ My git tutorial
 	onto somewhere else.
 
 	I'm making this change to master, so master is now ahead by 2 commits
+
+	I am now on master and I had completed making a branch br1 and another
+	branch br2 off a commit on br1.
+
+	Now I want changes in br2 on master but not br1
+
+	I do:
+	git rebase --onto master br1 br2
+	this means - replay changes on master starting from the common ancestor
+	of br1 and br2 and ending in br2 
