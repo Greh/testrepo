@@ -64,3 +64,6 @@ My git tutorial
 	
 
 	Then I switch to br1 and make this commit
+
+	Made my changes in br2 and now I will make another commit
+	in br1
