@@ -76,6 +76,7 @@ My git tutorial
 	Then I made a new branch called br2 which will contain this
 	commit and a few others:
 	This is the second commit
+	This is the third commit
 
 	I am now on master and I had completed making a branch br1 and another
 	branch br2 off a commit on br1.
