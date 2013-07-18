@@ -71,6 +71,12 @@ My git tutorial
 
 	I'm making this change to master, so master is now ahead by 2 commits
 
+	Then I switch to br1 and make this commit !
+
+	Then I made a new branch called br2 which will contain this
+	commit and a few others:
+	Created new branch br2
+
 	I am now on master and I had completed making a branch br1 and another
 	branch br2 off a commit on br1.
 
@@ -80,3 +86,6 @@ My git tutorial
 	git rebase --onto master br1 br2
 	this means - replay changes on master starting from the common ancestor
 	of br1 and br2 and ending in br2 
+	
+	(!)I notice that during my conflict resolution that the common ancestor
+	is also included in the rebasing.
