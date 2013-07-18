@@ -58,7 +58,9 @@ My git tutorial
 	git checkout master
 	git merge br1 
 
-	I am back to br1 and notice that origin/br1 is behing
+	I am back to br1 and notice that origin/br1 is behind
 	So I do git push origin HEAD:refs/heads/br1 to bring the
 	two up to date.
-	There will be conflicts...
+	
+
+	Then I switch to br1 and make this commit
