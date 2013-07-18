@@ -64,3 +64,9 @@ My git tutorial
 
 	I made some changes to br1 and then updated br1. But you don't
 	see them here because changes in br1 have not been merged.
+
+5. The complicated rebasing:
+	There is an example in the git book about replaying changes
+	onto somewhere else.
+
+	I'm making this change to master, so master is now ahead by 2 commits
