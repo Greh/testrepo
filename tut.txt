@@ -96,4 +96,8 @@ My git tutorial
 	I will now have to do a fast foward merge which is just bringing the
 	master pointer where the br2 pointer is
 	git merge br2
-	
+
+6. Cherry-picking:
+       I'm on master now
+       I will commit this on master
+       I want this change on br1 which is lagging behind somewhere	
