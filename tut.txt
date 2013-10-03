@@ -67,3 +67,8 @@ My git tutorial
 
 	Made my changes in br2 and now I will make another commit
 	in br1
+
+        ----------------------------
+        I'm on br1 now and I want to cherry-pick a patch
+        from master.
+        I will run git cherry-pick <sha>.
