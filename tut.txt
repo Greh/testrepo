@@ -68,7 +68,20 @@ My git tutorial
 	Made my changes in br2 and now I will make another commit
 	in br1
 
+<<<<<<< HEAD
         ----------------------------
         I'm on br1 now and I want to cherry-pick a patch
         from master.
         I will run git cherry-pick <sha>.
+=======
+	I am now on master - but I don't see any of the conflict changes..
+	That is because master is still back where the rebasing started.
+	I will now have to do a fast foward merge which is just bringing the
+	master pointer where the br2 pointer is
+	git merge br2
+
+6. Cherry-picking:
+       I'm on master now
+       I will commit this on master
+       I want this change on br1 which is lagging behind somewhere	
+>>>>>>> 017d2a5... A commit on master that I want on br1
