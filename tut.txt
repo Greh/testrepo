@@ -58,6 +58,7 @@ My git tutorial
 	git checkout master
 	git merge br1 
 
+<<<<<<< HEAD
 	I am now ahead of origin/master by 6 commits (7 if including this
 	change) So now I will do a push:
 	git push origin master
@@ -91,6 +92,24 @@ My git tutorial
 	(!)I notice that during my conflict resolution that the common ancestor
 	is also included in the rebasing.
 
+=======
+	I am back to br1 and notice that origin/br1 is behind
+	So I do git push origin HEAD:refs/heads/br1 to bring the
+	two up to date.
+	
+
+	Then I switch to br1 and make this commit
+
+	Made my changes in br2 and now I will make another commit
+	in br1
+
+<<<<<<< HEAD
+        ----------------------------
+        I'm on br1 now and I want to cherry-pick a patch
+        from master.
+        I will run git cherry-pick <sha>.
+=======
+>>>>>>> br1
 	I am now on master - but I don't see any of the conflict changes..
 	That is because master is still back where the rebasing started.
 	I will now have to do a fast foward merge which is just bringing the
@@ -101,3 +120,12 @@ My git tutorial
        I'm on master now
        I will commit this on master
        I want this change on br1 which is lagging behind somewhere	
+<<<<<<< HEAD
+=======
+>>>>>>> 017d2a5... A commit on master that I want on br1
+       
+       -------------------------------
+       See? It pulled the patch from master but also has a bunch of changes
+       that didn't get committed before. I'm leaving it there.
+       I will commit this and then merge this branch to master.
+>>>>>>> br1
