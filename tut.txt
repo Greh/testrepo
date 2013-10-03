@@ -85,3 +85,8 @@ My git tutorial
        I will commit this on master
        I want this change on br1 which is lagging behind somewhere	
 >>>>>>> 017d2a5... A commit on master that I want on br1
+       
+       -------------------------------
+       See? It pulled the patch from master but also has a bunch of changes
+       that didn't get committed before. I'm leaving it there.
+       I will commit this and then merge this branch to master.
