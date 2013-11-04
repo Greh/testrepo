@@ -1,0 +1,23 @@
+Git Fat
+
+This is a utility that supposedly reduces the amount of memory
+binaries would take up in a repository.
+
+To try it, I have copied one of my c project source
+and binary files over to two different folders in this repo.
+
+There is no distribution for this so I cloned the repo
+here: https://github.com/jedbrown/git-fat
+
+git clone https://github.com/jedbrown/git-fat.git
+
+Then I added the repo to my PATH
+
+Then made a file called .gitattributes in this repo
+and added the binaries folder to it.
+
+1. Never had a binary in this repo before and I know about git-fat
+so this is a fresh start
+
+Ran git fat init after all the above settings were done
+
