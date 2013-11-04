@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 		signal(SIGALRM, handler); //I send a signal called SIGALARM
         	printf("Sent alarm signal\n"); 
 		alarm(interval);
+                printf("Pausing\n");
 		pause();
 		count--;
 	}
