@@ -1,0 +1,2 @@
+[rsync]
+remote = localhost:/home/nisha/test-fat-store

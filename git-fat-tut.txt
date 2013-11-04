@@ -21,3 +21,7 @@ so this is a fresh start
 
 Ran git fat init after all the above settings were done
 
+Looks like this created fat/objects but nothing was in it
+
+Continued with creating a git fat store locally following 
+the example on the github account above.
