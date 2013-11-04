@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 binaries/*.* filter=fat -crlf
+=======
+./binaries/* filter=fat -crlf
+>>>>>>> Testing git-fat with binaries

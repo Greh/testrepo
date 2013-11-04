@@ -28,7 +28,10 @@ int main(int argc, char *argv[])
 		signal(SIGALRM, handler); //I send a signal called SIGALARM
         	printf("Sent alarm signal\n"); 
 		alarm(interval);
+<<<<<<< HEAD
                 printf("Pausing\n");
+=======
+>>>>>>> Testing git-fat with binaries
 		pause();
 		count--;
 	}

@@ -16,6 +16,7 @@ Then I added the repo to my PATH
 Then made a file called .gitattributes in this repo
 and added the binaries folder to it.
 
+<<<<<<< HEAD
 1. Have binaries already in the file but not pushed to
 remote.
 
@@ -34,3 +35,10 @@ then submit again.
 Problem - the filter works in a generic fashion. Not really
 meant for specific files. Possibly useful if you are setting
 up one git repository from scratch. Not good for migration.
+=======
+1. Never had a binary in this repo before and I know about git-fat
+so this is a fresh start
+
+Ran git fat init after all the above settings were done
+
+>>>>>>> Testing git-fat with binaries
