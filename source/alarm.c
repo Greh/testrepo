@@ -29,9 +29,13 @@ int main(int argc, char *argv[])
         	printf("Sent alarm signal\n"); 
 		alarm(interval);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 printf("Pausing\n");
 =======
 >>>>>>> Testing git-fat with binaries
+=======
+                printf("Pausing\n");
+>>>>>>> Made change to binaries
 		pause();
 		count--;
 	}
