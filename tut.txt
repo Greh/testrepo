@@ -129,3 +129,18 @@ My git tutorial
        that didn't get committed before. I'm leaving it there.
        I will commit this and then merge this branch to master.
 >>>>>>> br1
+
+7. Filter-branch:
+   Oooh scary - this is the rewriting history tool that is supposed to 
+   change anything in the commit history.
+   I need to test this out because I want to limit the size of binary
+   repositories.
+   
+   One thing that git has is removing a file everywhere. 
+   I've gone and committed some binary files in this repo to test
+   git-fat and now I want them gone.
+
+   I will run:
+   git filter-branch --tree-filter 'rm -rf binaries' HEAD
+   This is supposed to checkout each branch, run the command and 
+   resubmit
