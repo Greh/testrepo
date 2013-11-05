@@ -154,3 +154,6 @@ My git tutorial
    master then rebase.
 
    Right now I will just try to rebase.
+  
+   After a git rebase the binaries files are back again...
+   So it looks like I'll have to erase HEAD to really rewrite history.
