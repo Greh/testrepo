@@ -30,3 +30,7 @@ At this point I have still not seen a git-fat commmit.
 
 I will make a small change to my source files, compile and 
 then submit again.
+
+Problem - the filter works in a generic fashion. Not really
+meant for specific files. Possibly useful if you are setting
+up one git repository from scratch. Not good for migration.
