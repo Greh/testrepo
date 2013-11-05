@@ -148,3 +148,9 @@ My git tutorial
    After running the command and looking at the history, it looks
    like the original history remains and there are new commits.
    The binaries directory is gone.
+
+   ...and so is origin/master tag. So when you are doing this, checkout
+   the tree branches in different branches, do changes, reset HEAD on
+   master then rebase.
+
+   Right now I will just try to rebase.
