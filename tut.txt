@@ -144,3 +144,7 @@ My git tutorial
    git filter-branch --tree-filter 'rm -rf binaries' HEAD
    This is supposed to checkout each branch, run the command and 
    resubmit
+  
+   After running the command and looking at the history, it looks
+   like the original history remains and there are new commits.
+   The binaries directory is gone.
